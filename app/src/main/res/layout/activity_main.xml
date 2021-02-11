@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EASY PAYMENTS"
+        android:textSize="30sp"
+        android:textColor="#FF5722"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/transfer_money" />
+
+
+
+
+    <Button
+        android:id="@+id/view_users"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="#4CAF50"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="15dp"
+        android:text="View Users"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:textStyle="bold"></Button>
+
+</LinearLayout>
